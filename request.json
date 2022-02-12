@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "fbcce42c-118b-488d-9215-5b5ea33bb16c",
+		"name": "Car Damage Detection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "damaged_car",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "pic",
+							"value": "",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/damage_detection",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"damage_detection"
+					]
+				},
+				"description": "Use this request for using web app."
+			},
+			"response": []
+		}
+	]
+}
